@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "./contact-form";
 
@@ -13,8 +14,13 @@ export default function ContactPage() {
     <>
       <header className="legal-header">
         <Link className="legal-brand" href="/" aria-label="Mintofare home">
-          <span className="legal-brand-mark" aria-hidden="true">F</span>
-          <span>Mintofare</span>
+          <Image
+            className="legal-brand-logo"
+            src="/Mintofare.png"
+            alt=""
+            width={2172}
+            height={724}
+          />
         </Link>
         <nav aria-label="Main navigation">
           <Link href="/">Home</Link>
@@ -78,7 +84,15 @@ export default function ContactPage() {
       </main>
 
       <footer className="legal-footer">
-        <Link className="legal-footer-brand" href="/">Mintofare</Link>
+        <Link className="legal-footer-brand" href="/" aria-label="Mintofare home">
+          <Image
+            className="legal-footer-logo"
+            src="/Mintofare.png"
+            alt=""
+            width={2172}
+            height={724}
+          />
+        </Link>
         <p>Independent travel information. We do not operate flights, sell tickets, or manage reservations.</p>
         <nav aria-label="Website policies">
           <Link href="/faqs">FAQs</Link>

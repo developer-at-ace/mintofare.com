@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
@@ -196,15 +197,13 @@ export default function FlightResults() {
       <header className="site-header results-site-header">
         <div className="header-inner">
           <Link className="brand" href="/" aria-label="Mintofare home">
-            <span className="brand-mark" aria-hidden="true">
-              <svg viewBox="0 0 42 42" fill="none">
-                <circle cx="21" cy="21" r="18" stroke="currentColor" strokeWidth="1.7" />
-                <circle cx="21" cy="21" r="13.2" stroke="currentColor" strokeOpacity=".28" />
-                <path d="m11 24 20-10-8.5 18-3-7-8.5-1Z" fill="currentColor" stroke="currentColor" strokeLinejoin="round" />
-                <path d="m19.5 25 6.2-5.8" stroke="#fff" strokeWidth="1.5" />
-              </svg>
-            </span>
-            <span className="brand-name">Mintofare</span>
+            <Image
+              className="brand-logo"
+              src="/Mintofare.png"
+              alt=""
+              width={2172}
+              height={724}
+            />
           </Link>
           <nav className="results-header-nav" aria-label="Results navigation">
             <Link href="/#flight-search">New search</Link>

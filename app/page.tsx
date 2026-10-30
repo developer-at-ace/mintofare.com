@@ -115,24 +115,6 @@ const services = [
 
 const airportsByCode = new Map(airports.map((airport) => [airport.code, airport]));
 
-function BrandMark() {
-  return (
-    <span className="brand-mark" aria-hidden="true">
-      <svg viewBox="0 0 42 42" fill="none">
-        <circle cx="21" cy="21" r="18" stroke="currentColor" strokeWidth="1.7" />
-        <circle cx="21" cy="21" r="13.2" stroke="currentColor" strokeOpacity=".28" />
-        <path
-          d="m11 24 20-10-8.5 18-3-7-8.5-1Z"
-          fill="currentColor"
-          stroke="currentColor"
-          strokeLinejoin="round"
-        />
-        <path d="m19.5 25 6.2-5.8" stroke="#fff" strokeWidth="1.5" />
-      </svg>
-    </span>
-  );
-}
-
 function ServiceIcon({ name }: { name: string }) {
   const paths: Record<string, React.ReactNode> = {
     route: (
@@ -279,10 +261,13 @@ export default function Home() {
       <header className="site-header">
         <div className="header-inner">
           <a className="brand" href="#top" aria-label="Mintofare home">
-            <BrandMark />
-            <span className="brand-name">
-              Mintofare
-            </span>
+            <Image
+              className="brand-logo"
+              src="/Mintofare.png"
+              alt=""
+              width={2172}
+              height={724}
+            />
           </a>
           <nav className="desktop-nav" aria-label="Primary navigation">
             <a href="#routes">Flight guides</a>
@@ -742,10 +727,13 @@ export default function Home() {
         <div className="footer-main">
           <div className="footer-brand">
             <a className="brand brand-light" href="#top" aria-label="Mintofare home">
-              <BrandMark />
-              <span className="brand-name">
-                Mintofare
-              </span>
+              <Image
+                className="brand-logo"
+                src="/Mintofare.png"
+                alt=""
+                width={2172}
+                height={724}
+              />
             </a>
             <p>Independent flight route research, destination information, and general travel-planning resources to help you make informed decisions.</p>
             <a className="footer-phone" href="tel:+1-877-851-6024">
