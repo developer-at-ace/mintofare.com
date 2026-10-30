@@ -24,9 +24,11 @@ export default function ContactPage() {
         </Link>
         <nav aria-label="Main navigation">
           <Link href="/">Home</Link>
+          <Link href="/about">About us</Link>
           <Link href="/#routes">Route research</Link>
           <Link href="/faqs">FAQs</Link>
           <Link href="/privacy-policy">Privacy</Link>
+          <Link href="/contact">Contact Us</Link>
         </nav>
         <a className="legal-header-phone" href="tel:+1-877-851-6024">+1-877-851-6024</a>
       </header>
@@ -95,6 +97,7 @@ export default function ContactPage() {
         </Link>
         <p>Independent travel information. We do not operate flights, sell tickets, or manage reservations.</p>
         <nav aria-label="Website policies">
+          <Link href="/about">About us</Link>
           <Link href="/faqs">FAQs</Link>
           <Link href="/privacy-policy">Privacy Policy</Link>
           <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>

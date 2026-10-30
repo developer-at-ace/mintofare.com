@@ -34,9 +34,10 @@ export default function LegalPage({
         </Link>
         <nav aria-label="Main navigation">
           <Link href="/">Home</Link>
+          <Link href="/about">About us</Link>
           <Link href="/#routes">Route research</Link>
           <Link href="/faqs">FAQs</Link>
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact">Contact Us</Link>
         </nav>
         <a className="legal-header-phone" href="tel:+1-877-851-6024">+1-877-851-6024</a>
       </header>

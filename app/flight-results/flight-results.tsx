@@ -207,7 +207,9 @@ export default function FlightResults() {
           </Link>
           <nav className="results-header-nav" aria-label="Results navigation">
             <Link href="/#flight-search">New search</Link>
-            <Link href="/contact">Contact</Link>
+            <Link href="/about">About us</Link>
+            <Link href="/faqs">FAQs</Link>
+            <Link href="/contact">Contact Us</Link>
           </nav>
         </div>
       </header>

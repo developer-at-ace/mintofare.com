@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useRef, useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import AirportCombobox from "@/app/components/airport-combobox";
@@ -272,9 +273,9 @@ export default function Home() {
           <nav className="desktop-nav" aria-label="Primary navigation">
             <a href="#routes">Flight guides</a>
             <a href="#services">Travel planning</a>
-            <a href="#about">About</a>
-            <a href="#faq">FAQs</a>
-            <a href="/contact">Contact</a>
+            <Link href="/about">About us</Link>
+            <Link href="/faqs">FAQs</Link>
+            <Link href="/contact">Contact Us</Link>
           </nav>
           <div className="header-actions">
             <a className="phone-pill" href="tel:+1-877-851-6024">
@@ -297,9 +298,9 @@ export default function Home() {
             <nav className="nav-popover" aria-label="Main navigation">
               <a href="#services" onClick={() => setNavOpen(false)}>What we offer</a>
               <a href="#routes" onClick={() => setNavOpen(false)}>Route research</a>
-              <a href="#about" onClick={() => setNavOpen(false)}>About us</a>
-              <a href="#faq" onClick={() => setNavOpen(false)}>FAQs</a>
-              <a href="/contact" onClick={() => setNavOpen(false)}>Contact</a>
+              <Link href="/about" onClick={() => setNavOpen(false)}>About us</Link>
+              <Link href="/faqs" onClick={() => setNavOpen(false)}>FAQs</Link>
+              <Link href="/contact" onClick={() => setNavOpen(false)}>Contact Us</Link>
             </nav>
           )}
         </div>
@@ -683,6 +684,10 @@ export default function Home() {
             <span className="about-orbit orbit-one" aria-hidden="true" />
             <span className="about-orbit orbit-two" aria-hidden="true" />
           </div>
+          <p className="operator-disclosure">
+            Mintofare.com is operated by{" "}
+            <strong>BURJ ALSAHRAA FOR PROJECT MANAGEMENT SERVICES CO.</strong>
+          </p>
         </section>
 
         <section className="section faq-section" id="faq">
@@ -742,10 +747,10 @@ export default function Home() {
           </div>
           <div className="footer-column">
             <h3>Company</h3>
-            <a href="#about">About us</a>
+            <Link href="/about">About us</Link>
             <a href="#services">Travel assistance</a>
-            <a href="/contact">Contact us</a>
-            <a href="/faqs">Frequently asked questions</a>
+            <Link href="/contact">Contact us</Link>
+            <Link href="/faqs">Frequently asked questions</Link>
           </div>
           <div className="footer-column">
             <h3>Get in touch</h3>
