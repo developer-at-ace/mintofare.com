@@ -757,7 +757,13 @@ export default function Home() {
             <a href="/contact">Contact us</a>
             <a href="tel:+1-877-851-6024">+1-877-851-6024</a>
             <a href="mailto:support@mintofare.com">support@mintofare.com</a>
-            <p>1098 S Milwaukee Ave, Suite 200<br />Wheeling, IL 60090</p>
+            <p>
+              Office 5-57, Workspace Downtown
+              <br />
+              Sheikh Zayed Road, Next to the Burj Khalifa Metro Station
+              <br />
+              Dubai, United Arab Emirates
+            </p>
           </div>
           <div className="footer-column">
             <h3>Policies</h3>

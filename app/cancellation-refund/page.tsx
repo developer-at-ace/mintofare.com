@@ -98,7 +98,7 @@ const sections = [
     title: "Contact us",
     paragraphs: [
       "For general questions about this policy or Mintofare's travel information resources, contact support@mintofare.com or +1-877-851-6024.",
-      "Business address: 1098 S Milwaukee Ave, Suite 200, Wheeling, IL 60090.",
+      "Business address: Office 5-57, Workspace Downtown, Sheikh Zayed Road, Next to the Burj Khalifa Metro Station, Dubai, United Arab Emirates.",
       "Important: For cancellation or refund requests involving an existing airline ticket, contact the airline or travel provider responsible for your reservation.",
     ],
   },

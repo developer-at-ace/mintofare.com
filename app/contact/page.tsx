@@ -66,7 +66,13 @@ export default function ContactPage() {
                 <span className="contact-detail-icon" aria-hidden="true">⌖</span>
                 <div>
                   <h3>Business address</h3>
-                  <p>1098 S Milwaukee Ave, Suite 200<br />Wheeling, IL 60090</p>
+                  <p>
+                    Office 5-57, Workspace Downtown
+                    <br />
+                    Sheikh Zayed Road, Next to the Burj Khalifa Metro Station
+                    <br />
+                    Dubai, United Arab Emirates
+                  </p>
                 </div>
               </article>
             </div>

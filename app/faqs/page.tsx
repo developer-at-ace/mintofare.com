@@ -126,7 +126,7 @@ const sections = [
   {
     title: "How can I contact Mintofare?",
     paragraphs: [
-      "Use the Contact Us page, email support@mintofare.com, or call +1-877-851-6024 for general inquiries. The business address is 1098 S Milwaukee Ave, Suite 200, Wheeling, IL 60090.",
+      "Use the Contact Us page, email support@mintofare.com, or call +1-877-851-6024 for general inquiries. The business address is Office 5-57, Workspace Downtown, Sheikh Zayed Road, Next to the Burj Khalifa Metro Station, Dubai, United Arab Emirates.",
     ],
   },
   {
