@@ -30,13 +30,7 @@ const sections = [
       "Independently verify important information with the relevant airline, travel provider, or official government authority before making travel decisions.",
     ],
   },
-  {
-    title: "No booking or ticketing guarantee",
-    paragraphs: [
-      "Mintofare does not issue airline tickets, process airline reservations, collect payments for flight bookings, or manage existing airline reservations through this website. Flight-search results are provided for research, may change, and do not create a reservation. Complete bookings directly with the relevant provider.",
-      "Any booking or transaction completed with an external provider is governed by that provider's terms and conditions. The provider is responsible for its booking, payment, ticketing, cancellation, and refund services.",
-    ],
-  },
+ 
   {
     title: "Airline trademarks and brand references",
     paragraphs: [
@@ -86,7 +80,7 @@ const sections = [
   {
     title: "Contact information",
     paragraphs: [
-      "For questions about this disclaimer, contact Mintofare at support@mintofare.com or +1-877-851-6024.",
+      "For questions about this disclaimer, contact Mintofare at support@mintofare.com.",
       "Business address: Office 5-57, Workspace Downtown, Sheikh Zayed Road, Next to the Burj Khalifa Metro Station, Dubai, United Arab Emirates.",
     ],
   },

@@ -39,7 +39,7 @@ export default function LegalPage({
           <Link href="/faqs">FAQs</Link>
           <Link href="/contact">Contact Us</Link>
         </nav>
-        <a className="legal-header-phone" href="tel:+1-877-851-6024">+1-877-851-6024</a>
+        <Link className="legal-header-contact" href="/contact">Contact</Link>
       </header>
 
       <main className="legal-main">
@@ -67,12 +67,11 @@ export default function LegalPage({
           <aside className="legal-contact-card">
             <div>
               <p className="legal-eyebrow">NEED TO GET IN TOUCH?</p>
-              <h2>We’re here for general travel questions.</h2>
-              <p>For a reservation you already made, contact the airline or booking provider shown on your confirmation.</p>
+              <h2>Questions about this website?</h2>
+              <p>Mintofare publishes general travel information. We cannot access reservations or provide booking, change, cancellation, or refund support.</p>
             </div>
             <div className="legal-contact-links">
               <a href="mailto:support@mintofare.com">support@mintofare.com</a>
-              <a href="tel:+1-877-851-6024">+1-877-851-6024</a>
             </div>
           </aside>
         </div>
@@ -91,9 +90,10 @@ export default function LegalPage({
         <p>Independent travel information. We do not operate flights, sell tickets, or manage reservations.</p>
         <nav aria-label="Legal pages">
           <Link href="/faqs">FAQs</Link>
+          <Link href="/travel-assistance">Travel assistance</Link>
           <Link href="/privacy-policy">Privacy Policy</Link>
           <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>
-          <Link href="/cancellation-refund">Cancellation &amp; Refund</Link>
+          <Link href="/cancellation-refund">Booking changes &amp; refunds</Link>
           <Link href="/disclaimer">Disclaimer</Link>
         </nav>
         <span>© 2026 Mintofare</span>

@@ -92,7 +92,7 @@ const sections = [
   {
     title: "Contact us",
     paragraphs: [
-      "For questions about this Privacy Policy or our information-handling practices, contact Mintofare at support@mintofare.com or +1-877-851-6024.",
+      "For questions about this Privacy Policy or our information-handling practices, contact Mintofare at support@mintofare.com.",
       "Business address: Office 5-57, Workspace Downtown, Sheikh Zayed Road, Next to the Burj Khalifa Metro Station, Dubai, United Arab Emirates.",
     ],
   },

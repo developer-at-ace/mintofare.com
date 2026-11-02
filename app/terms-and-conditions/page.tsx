@@ -97,7 +97,7 @@ const sections = [
     title: "Cancellations and refunds",
     paragraphs: [
       "Cancellation and refund conditions depend on the airline or travel provider, fare rules, booking terms, and applicable law. Where a transaction is completed through a third party, its cancellation and refund policy governs that transaction.",
-      "Mintofare does not sell tickets, accept booking payments, or manage reservations through this website. See our Cancellation & Refund Policy and the provider's booking conditions for more information.",
+      "Mintofare does not sell tickets, accept booking payments, or manage reservations through this website. See our booking changes and refunds guide and the provider's booking conditions for more information.",
     ],
   },
   {
@@ -172,7 +172,7 @@ const sections = [
   {
     title: "Contact information",
     paragraphs: [
-      "For questions about these terms, contact Mintofare at support@mintofare.com or +1-877-851-6024.",
+      "For questions about these terms, contact Mintofare at support@mintofare.com.",
       "Business address: Office 5-57, Workspace Downtown, Sheikh Zayed Road, Next to the Burj Khalifa Metro Station, Dubai, United Arab Emirates.",
     ],
   },

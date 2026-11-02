@@ -30,7 +30,7 @@ export default function ContactPage() {
           <Link href="/privacy-policy">Privacy</Link>
           <Link href="/contact">Contact Us</Link>
         </nav>
-        <a className="legal-header-phone" href="tel:+1-877-851-6024">+1-877-851-6024</a>
+        <Link className="legal-header-contact" href="/contact">Contact</Link>
       </header>
 
       <main className="contact-main">
@@ -55,14 +55,6 @@ export default function ContactPage() {
                 </div>
               </article>
               <article className="contact-detail">
-                <span className="contact-detail-icon" aria-hidden="true">☎</span>
-                <div>
-                  <h3>Phone</h3>
-                  <a href="tel:+1-877-851-6024">+1-877-851-6024</a>
-                  <p>For general travel information</p>
-                </div>
-              </article>
-              <article className="contact-detail">
                 <span className="contact-detail-icon" aria-hidden="true">⌖</span>
                 <div>
                   <h3>Business address</h3>
@@ -78,8 +70,8 @@ export default function ContactPage() {
             </div>
 
             <aside className="contact-booking-note">
-              <h3>Need help with an existing booking?</h3>
-              <p>Mintofare does not manage airline reservations. For tickets, payments, cancellations, refunds, or flight changes, contact the airline or booking provider responsible for your reservation.</p>
+              <h3>For an existing booking</h3>
+              <p>Mintofare cannot access reservations or handle tickets, payments, changes, cancellations, or refunds. Contact the airline or booking provider named on your confirmation.</p>
             </aside>
           </section>
 
@@ -107,7 +99,7 @@ export default function ContactPage() {
           <Link href="/faqs">FAQs</Link>
           <Link href="/privacy-policy">Privacy Policy</Link>
           <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>
-          <Link href="/cancellation-refund">Cancellation &amp; Refund</Link>
+          <Link href="/cancellation-refund">Booking changes &amp; refunds</Link>
           <Link href="/disclaimer">Disclaimer</Link>
         </nav>
         <span>© 2026 Mintofare</span>

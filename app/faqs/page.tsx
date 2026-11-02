@@ -46,9 +46,9 @@ const sections = [
     ],
   },
   {
-    title: "Are flight prices displayed on the website guaranteed?",
+    title: "Does Mintofare show live flights or fares?",
     paragraphs: [
-      "Search results may include live fares and availability supplied by our flight-search provider, but they are not guaranteed and can change. Confirm the final price, taxes, fees, and conditions with the provider before booking.",
+      "No. Mintofare publishes general route and destination information, not live schedules, availability, or fares. Check current details directly with an airline or travel provider.",
     ],
   },
   {
@@ -58,9 +58,9 @@ const sections = [
     ],
   },
   {
-    title: "Can I contact Mintofare for travel assistance?",
+    title: "Can Mintofare help with an existing booking?",
     paragraphs: [
-      "Yes. You can contact us with general website inquiries, route research questions, destination information, or questions about our travel-planning resources. Our contact details and contact form are available on the Contact Us page.",
+      "No. We cannot access reservations or provide individual booking, change, cancellation, or refund support. Contact the airline or booking provider named on your confirmation. For website questions, email support@mintofare.com.",
     ],
   },
   {
@@ -126,13 +126,13 @@ const sections = [
   {
     title: "How can I contact Mintofare?",
     paragraphs: [
-      "Use the Contact Us page, email support@mintofare.com, or call +1-877-851-6024 for general inquiries. The business address is Office 5-57, Workspace Downtown, Sheikh Zayed Road, Next to the Burj Khalifa Metro Station, Dubai, United Arab Emirates.",
+      "For website questions, use the Contact Us page or email support@mintofare.com. Mintofare.com is operated by BURJ ALSAHRAA FOR PROJECT MANAGEMENT SERVICES CO. at Office 5-57, Workspace Downtown, Sheikh Zayed Road, Next to the Burj Khalifa Metro Station, Dubai, United Arab Emirates.",
     ],
   },
   {
     title: "Where can I find your website policies?",
     paragraphs: [
-      "Our website footer links to the Privacy Policy, Terms & Conditions, Disclaimer, and Cancellation & Refund Policy.",
+      "Our website footer links to the Privacy Policy, Terms & Conditions, Disclaimer, and booking changes and refunds guide.",
     ],
   },
   {

@@ -5,101 +5,83 @@ import LegalPage from "../components/legal-page";
 export const metadata: Metadata = {
   title: "Cancellation & Refund Policy | Mintofare",
   description:
-    "Learn how cancellations, booking changes, and refunds work for travel bookings made with airlines and third-party providers.",
+    "Learn how flight cancellations, ticket changes, and refunds are handled by airlines and third-party booking providers.",
 };
 
 const sections = [
   {
-    title: "General information",
+    title: "Introduction",
     paragraphs: [
-      "Mintofare is an independent travel information platform. We do not issue airline tickets, collect payments for airline reservations, or directly manage travel bookings through this website.",
-      "Cancellation and refund requests for bookings completed with an airline or third-party travel provider are subject to that provider's applicable policies and conditions. This policy explains where to direct requests; it does not create a right to cancel or receive a refund from Mintofare.",
+      "This Cancellation & Refund Policy explains how cancellations, ticket modifications, and refund requests are handled when using the Mintofare website.",
+      "Mintofare operates as an independent travel information and flight-search platform. We are not an airline and do not claim to be an official representative of any airline.",
     ],
   },
   {
-    title: "Cancellation requests",
+    title: "Flight search and bookings",
     paragraphs: [
-      "If you have an existing airline reservation that you wish to cancel, contact the airline or travel provider responsible for your booking. Use the official contact channel shown on your booking confirmation.",
-      "Before submitting a cancellation request, have your booking reference and passenger details available, confirm the scheduled travel dates, and review the fare conditions, cancellation deadlines, and any applicable fees or deductions.",
-      "A cancellation request does not automatically guarantee a refund. The provider will determine the available options under your booking terms and applicable law.",
+      "Visitors can use the flight-search functionality to explore available flight options.",
+      "Where flight searches connect users to third-party booking providers, any resulting reservation is subject to that provider's terms, conditions, and policies.",
+      "The identity of the booking provider and the applicable booking process should be disclosed before a customer completes a purchase.",
     ],
   },
   {
-    title: "Refund eligibility",
+    title: "Flight cancellation",
     paragraphs: [
-      "Refund eligibility is determined by the applicable booking terms, provider policies, and relevant law. Factors may include the fare type and ticket conditions, when the cancellation is requested, whether the ticket has been partly or fully used, airline rules, taxes and government charges, service or processing charges, and other third-party terms.",
-      "For a booking made with another company, only that provider can confirm the amount, form, and eligibility of a refund for that transaction.",
+      "If you purchased an airline ticket through an external booking provider, contact the provider that issued your ticket to request cancellation.",
+      "Mintofare does not guarantee that a flight ticket can be cancelled.",
+    ],
+    bullets: [
+      "The airline's cancellation rules.",
+      "The fare type and ticket conditions.",
+      "The time remaining before departure.",
+      "The booking provider's applicable terms and conditions.",
     ],
   },
   {
-    title: "Non-refundable reservations",
+    title: "Refund policy",
     paragraphs: [
-      "Some fares and travel services may be non-refundable or subject to restrictions. If a booking is non-refundable, the responsible provider's terms determine whether any taxes, charges, or other amounts may be returned.",
+      "Refund eligibility is determined by the airline and the applicable booking provider. Depending on the ticket conditions, a refund may be:",
+      "Any approved refund will be processed by the responsible airline or booking provider according to its applicable procedures.",
+      "Mintofare does not promise or independently authorize refunds for tickets purchased through third-party providers.",
+    ],
+    bullets: [
+      "Fully refundable.",
+      "Partially refundable.",
+      "Subject to cancellation charges.",
+      "Non-refundable.",
     ],
   },
   {
-    title: "Airline-initiated cancellations",
+    title: "Flight changes and modifications",
     paragraphs: [
-      "If an airline cancels or significantly changes a flight, available options depend on the airline's policies, your ticket terms, and applicable regulations. Options may include rebooking, alternative travel arrangements, travel credit, or a refund where applicable.",
-      "Mintofare does not control airline operational decisions. Contact the airline or provider responsible for the reservation to learn what options apply.",
+      "Requests to change travel dates, passenger information, routes, or other ticket details must be directed to the airline or booking provider responsible for the reservation.",
+      "Additional charges may apply depending on the airline's fare rules and the booking provider's terms.",
     ],
   },
   {
     title: "Refund processing time",
     paragraphs: [
-      "If a refund is approved by the responsible provider, processing times may vary. Timing can depend on the airline, travel provider, payment processor, and financial institution. Mintofare cannot guarantee processing times established by external organizations.",
+      "Refund processing times are determined by the airline, payment provider, and booking provider. Contact the responsible provider for information about refund status and expected processing times.",
     ],
   },
   {
-    title: "Service and processing fees",
+    title: "Third-party booking providers",
     paragraphs: [
-      "Any service, administrative, or processing charges applicable to a third-party transaction are governed by that provider's terms. Mintofare does not currently charge booking, cancellation, or processing fees through this website.",
-      "If Mintofare offers a separately defined paid service in the future, applicable charges and refund conditions will be disclosed before purchase.",
+      "When users access external booking websites through links or flight-search results on Mintofare, those websites operate under their own privacy policies, payment procedures, and booking conditions.",
+      "Review all applicable terms before completing a reservation.",
     ],
   },
   {
-    title: "Booking changes",
+    title: "Contact information",
     paragraphs: [
-      "Date, route, passenger, or other booking changes are subject to the conditions of the airline or provider responsible for the reservation. Changes may involve additional charges or fare differences. Contact the relevant provider before changing an existing booking.",
-    ],
-  },
-  {
-    title: "Missed departures",
-    paragraphs: [
-      "If a passenger does not appear for a scheduled departure, the provider may treat the reservation as a no-show under its policies. Refund eligibility or any remaining ticket value depends on the applicable fare conditions. Contact the airline or provider directly.",
-    ],
-  },
-  {
-    title: "Duplicate or incorrect bookings",
-    paragraphs: [
-      "If you identify a duplicate reservation or incorrect booking details, contact the responsible airline or booking provider immediately. Do not assume a duplicate booking will be automatically cancelled or refunded.",
-    ],
-  },
-  {
-    title: "Payment disputes",
-    paragraphs: [
-      "For a payment concern relating to a third-party booking, contact the provider that processed the transaction. You may also contact your payment provider where appropriate.",
-      "If you believe a charge was made by Mintofare, contact us at support@mintofare.com with the date, amount, and a description of the charge. Do not send full card numbers or security codes.",
-    ],
-  },
-  {
-    title: "Third-party policies",
-    paragraphs: [
-      "Airlines, travel agencies, booking platforms, and payment providers maintain their own cancellation, refund, and payment procedures. Their applicable terms govern transactions completed through their services. Mintofare does not control those terms or procedures.",
+      "For questions regarding Mintofare's website, flight-search functionality, or general travel information, use the contact information published on our Contact Us page.",
+      "For ticket cancellations, booking changes, or refund requests, contact the airline or booking provider that issued your ticket.",
     ],
   },
   {
     title: "Policy updates",
     paragraphs: [
-      "We may update this policy when necessary to reflect changes in website operations, services, or applicable requirements. Updated versions will be published on this page with a revised effective date.",
-    ],
-  },
-  {
-    title: "Contact us",
-    paragraphs: [
-      "For general questions about this policy or Mintofare's travel information resources, contact support@mintofare.com or +1-877-851-6024.",
-      "Business address: Office 5-57, Workspace Downtown, Sheikh Zayed Road, Next to the Burj Khalifa Metro Station, Dubai, United Arab Emirates.",
-      "Important: For cancellation or refund requests involving an existing airline ticket, contact the airline or travel provider responsible for your reservation.",
+      "Mintofare may update this policy when necessary. Revisions will be published on this page with an updated effective date.",
     ],
   },
 ] satisfies LegalSection[];
@@ -108,8 +90,8 @@ export default function CancellationRefundPage() {
   return (
     <LegalPage
       title="Cancellation & Refund Policy"
-      description="General information about cancellations, booking changes, and refunds for travel arranged with an airline or third-party provider."
-      updated="October 30, 2026"
+      description="Information about cancellations, ticket modifications, and refund requests with airlines and third-party booking providers."
+      updated="November 2, 2026"
       sections={sections}
     />
   );

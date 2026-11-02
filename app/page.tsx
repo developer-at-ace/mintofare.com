@@ -278,9 +278,9 @@ export default function Home() {
             <Link href="/contact">Contact Us</Link>
           </nav>
           <div className="header-actions">
-            <a className="phone-pill" href="tel:+1-877-851-6024">
+            <a className="phone-pill" href="tel:+1-866-622-2001">
               <span className="phone-icon" aria-hidden="true">☎</span>
-              <span>+1-877-851-6024</span>
+              <span>(866) 622-2001</span>
             </a>
             <button
               className={`menu-toggle${navOpen ? " is-open" : ""}`}
@@ -478,15 +478,11 @@ export default function Home() {
                 <span>{isNavigatingToResults ? "Opening flight results..." : "Search flights"}</span>
                 <span className="submit-arrow" aria-hidden="true">↗</span>
               </button>
-              <p className="search-disclaimer">
-                Live search results are informational; prices and availability can change. Bookings are not made here.
-              </p>
-              {searchError && <p className="search-notice search-error" role="alert">{searchError}</p>}
-            </form>
+                         </form>
 
             <div className="trust-note">
               <span className="trust-check" aria-hidden="true">✓</span>
-              <span>Free to explore <i /> Independent information <i /> No booking pressure</span>
+              <span>Free to explore <i /> Independent information <i /></span>
             </div>
           </div>
         </section>
@@ -741,21 +737,21 @@ export default function Home() {
               />
             </a>
             <p>Independent flight route research, destination information, and general travel-planning resources to help you make informed decisions.</p>
-            <a className="footer-phone" href="tel:+1-877-851-6024">
-              <span aria-hidden="true">☎</span> +1-877-851-6024
+            <a className="footer-phone" href="tel:+1-866-622-2001">
+              <span aria-hidden="true">☎</span> (866) 622-2001
             </a>
           </div>
           <div className="footer-column">
             <h3>Company</h3>
             <Link href="/about">About us</Link>
-            <a href="#services">Travel assistance</a>
+            <Link href="/travel-assistance">Travel assistance</Link>
             <Link href="/contact">Contact us</Link>
             <Link href="/faqs">Frequently asked questions</Link>
           </div>
           <div className="footer-column">
             <h3>Get in touch</h3>
             <a href="/contact">Contact us</a>
-            <a href="tel:+1-877-851-6024">+1-877-851-6024</a>
+            <a href="tel:+1-866-622-2001">(866) 622-2001</a>
             <a href="mailto:support@mintofare.com">support@mintofare.com</a>
             <p>
               Office 5-57, Workspace Downtown

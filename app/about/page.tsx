@@ -47,9 +47,7 @@ export default function AboutPage() {
           <Link href="/faqs">FAQs</Link>
           <Link href="/contact">Contact Us</Link>
         </nav>
-        <a className="legal-header-phone" href="tel:+1-877-851-6024">
-          +1-877-851-6024
-        </a>
+        <Link className="legal-header-contact" href="/contact">Contact</Link>
       </header>
 
       <main className="legal-main">
