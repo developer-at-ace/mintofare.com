@@ -19,7 +19,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         {`window.dataLayer = window.dataLayer || [];
 function gtag(){window.dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'AW-18527164363');`}
+gtag('config', 'AW-18527164363');
+gtag('config', 'AW-18527164363/y9vGCKm5tLEdEMuvuIJF', {
+  'phone_conversion_number': '(866) 622-2001'
+});`}
       </Script>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=AW-18527164363"

@@ -7,6 +7,16 @@ import { useRouter } from "next/navigation";
 import AirportCombobox from "@/app/components/airport-combobox";
 import { airports, type Airport } from "@/app/data/airports";
 
+declare global {
+  interface Window {
+    gtag?: (
+      command: "event",
+      eventName: "conversion",
+      parameters: { send_to: string; event_callback?: () => void },
+    ) => void;
+  }
+}
+
 const routes = [
   {
     from: "Dallas",
@@ -169,6 +179,27 @@ function getLocalDateString() {
   ].join("-");
 }
 
+function handleCallNowClick(event: React.MouseEvent<HTMLAnchorElement>) {
+  if (typeof window.gtag !== "function") {
+    return;
+  }
+
+  event.preventDefault();
+  const phoneLink = event.currentTarget.href;
+  let hasNavigated = false;
+  const openPhoneLink = () => {
+    if (hasNavigated) return;
+    hasNavigated = true;
+    window.location.href = phoneLink;
+  };
+
+  window.gtag("event", "conversion", {
+    send_to: "AW-18527164363/y9vGCKm5tLEdEMuvuIJF",
+    event_callback: openPhoneLink,
+  });
+  window.setTimeout(openPhoneLink, 1000);
+}
+
 export default function Home() {
   const router = useRouter();
   const [from, setFrom] = useState<Airport | null>(null);
@@ -278,7 +309,7 @@ export default function Home() {
             <Link href="/contact">Contact Us</Link>
           </nav>
           <div className="header-actions">
-            <a className="phone-pill" href="tel:+1-866-622-2001">
+            <a className="phone-pill" href="tel:+1-866-622-2001" onClick={handleCallNowClick}>
               <span className="phone-icon" aria-hidden="true">☎</span>
               <span>(866) 622-2001</span>
             </a>
@@ -341,6 +372,22 @@ export default function Home() {
                 </p>
                 </b>
               </div>
+              <aside className="hero-call-card" aria-labelledby="hero-call-title">
+                <p className="eyebrow">HOW WE CAN HELP</p>
+                <h2 id="hero-call-title">Questions about our travel information?</h2>
+                <p className="hero-call-description">
+                  Call Mintofare for general information about our route research,
+                  destination resources, and travel-planning content.
+                </p>
+                <a
+                  className="hero-call-cta"
+                  href="tel:+1-866-622-2001"
+                  onClick={handleCallNowClick}
+                >
+                  <span className="phone-icon" aria-hidden="true">☎</span>
+                  <span>Call now: (866) 622-2001</span>
+                </a>
+              </aside>
             </div>
 
             <form className="search-card" id="flight-search" onSubmit={handleSearch}>
@@ -737,7 +784,7 @@ export default function Home() {
               />
             </a>
             <p>Independent flight route research, destination information, and general travel-planning resources to help you make informed decisions.</p>
-            <a className="footer-phone" href="tel:+1-866-622-2001">
+            <a className="footer-phone" href="tel:+1-866-622-2001" onClick={handleCallNowClick}>
               <span aria-hidden="true">☎</span> (866) 622-2001
             </a>
           </div>
@@ -751,7 +798,7 @@ export default function Home() {
           <div className="footer-column">
             <h3>Get in touch</h3>
             <a href="/contact">Contact us</a>
-            <a href="tel:+1-866-622-2001">(866) 622-2001</a>
+            <a href="tel:+1-866-622-2001" onClick={handleCallNowClick}>(866) 622-2001</a>
             <a href="mailto:support@mintofare.com">support@mintofare.com</a>
             <p>
               Office 5-57, Workspace Downtown
